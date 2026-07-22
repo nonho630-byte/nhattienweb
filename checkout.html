@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đặt hàng - Anon</title>
+  <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+  <link rel="stylesheet" href="./assets/css/product-detail.css">
+  <link rel="stylesheet" href="./assets/css/cart.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="detail-header">
+    <div class="header-top">
+      <div class="container">
+        <ul class="header-social-container">
+          <li><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <div class="header-alert-news">
+          <p><b>Free Shipping</b> This Week Order Over - $55</p>
+        </div>
+        <div class="header-top-actions">
+          <select name="language">
+            <option value="vi-VN">Tiếng Việt</option>
+            <option value="en-US">English</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="container">
+        <a href="index.html" class="header-logo">
+          <img src="./assets/images/logo/logo.svg" alt="Anon" width="120" height="36">
+        </a>
+        <a href="cart.html" class="back-link">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+          <span>Quay lại giỏ hàng</span>
+        </a>
+        <div class="header-user-actions" style="margin-left: auto;">
+          <button class="action-btn" data-cart-link>
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count" data-cart-count>0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="checkout-page">
+    <div class="container">
+      <h1 class="page-title">Đặt hàng</h1>
+      <div id="checkout-root"></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">Copyright &copy; <a href="index.html">Anon</a> all rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/products.js"></script>
+  <script src="./assets/js/cart.js"></script>
+  <script src="./assets/js/translations.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+  <script src="./assets/js/checkout.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
